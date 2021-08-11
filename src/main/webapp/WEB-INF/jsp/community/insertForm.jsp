@@ -35,10 +35,8 @@
 </script>
 </head>
 <body>
-<<<<<<< HEAD
+    <jsp:include page="/WEB-INF/jsp/fragment/header.jsp" flush="false" />
 
-=======
->>>>>>> master
 	<h2>게시판 글작성</h2>
 	<div class="well">
 		<form id="f_writeForm" name="f_writeForm" class="form-horizontal">
