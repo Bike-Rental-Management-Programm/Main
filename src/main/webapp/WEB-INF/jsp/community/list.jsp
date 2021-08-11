@@ -2,14 +2,25 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<<<<<<< HEAD
+=======
+<%@ taglib prefix="tag" uri="/WEB-INF/tld/custom_tag.tld"%>
+>>>>>>> master
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8" />
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+=======
+<link rel="stylesheet" type="text/css" href="/resource/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/resource/css/board.css" />
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/resources/js/common.js"></script>
+>>>>>>> master
 <script type="text/javascript">
 	$(function() {
 		$("#insertFormBtn").click(function() {
@@ -31,8 +42,11 @@
 </script>
 </head>
 <body>
+<<<<<<< HEAD
     <jsp:include page="/WEB-INF/jsp/fragment/header.jsp" flush="false" />
 
+=======
+>>>>>>> master
 	<%-- ======= 상세 페이지 이동을 위한 FORM ============ --%>
 	<form name="detailForm" id="detailForm">
 		<input type="hidden" name="communityNo" id="communityNo"> <input
@@ -109,7 +123,14 @@
 	</div>
 	<%-- ============== 글쓰기 버튼 출력 종료============ --%>
 	<%-- ============ 페이지 네비게이션 시작 ============ --%>
+<<<<<<< HEAD
 
+=======
+	<div id="qnaPage">
+		<tag:paging page="${param.page}" total="${total}"
+			list_size="${data.pageSize}" />
+	</div>
+>>>>>>> master
 	<%-- =========== 페이지 네비게이션 종료 ============= --%>
 </body>
 </html>

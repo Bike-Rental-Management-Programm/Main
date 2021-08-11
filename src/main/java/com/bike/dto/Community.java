@@ -14,7 +14,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+<<<<<<< HEAD
 public class Community {
+=======
+public class Community extends Page {
+>>>>>>> master
 
 	/* 게시판 글번호 */
 	private int communityWriteNo;
