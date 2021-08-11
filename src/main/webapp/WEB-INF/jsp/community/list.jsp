@@ -78,9 +78,9 @@
 				<!-- 데이터 출력 -->
 				<c:choose>
 					<c:when test="${not empty qnaList}">
-						<c:forEach var="communityList" items="${communityList}" varStatus="status">
-							<tr class="tac" data-num="${communityWriteNo}">
-								<td style="font-size: 13px;">사용자</td>
+						<c:forEach var="qna" items="${qnaList}" varStatus="status">
+							<tr class="tac" data-num="${community_writeNo}">
+								<td style="font-size: 13px;">${qna.m_name}</td>
 								<td>${count - status.index}</td>
 								<td class="goDetail tal">${communitySubject}</td>
 								<td></td>
