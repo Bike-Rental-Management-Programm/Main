@@ -1,5 +1,6 @@
 package com.bike;
 
+import com.bike.BikeRentalApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
