@@ -8,7 +8,7 @@
             <div class="navbar-left">
                 <button type="button" class="btn btn-default navbar-btn">대여소 찾기</button>
                 <button type="button" class="btn btn-default navbar-btn">지도</button>
-                <button type="button" class="btn btn-default navbar-btn">소통장</button>
+                <button type="button" class="btn btn-default navbar-btn" onclick="location.href='/community/list'">소통장</button>
             </div>
             <div class="navbar-right">
                 <button type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#loginForm">로그인</button>
