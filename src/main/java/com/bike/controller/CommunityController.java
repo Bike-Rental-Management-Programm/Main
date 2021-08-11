@@ -20,8 +20,13 @@ public class CommunityController {
 
 	@RequestMapping("/community/list")
 	public String communityList(Model model, HttpSession session) {
+<<<<<<< HEAD
+//		List<Community> list = communityService.communityList();
+//		model.addAttribute("list", list);
+=======
 		List<Community> list = communityService.communityList();
 		model.addAttribute("list", list);
+>>>>>>> master
 		return "community/list";
 	}
 	@RequestMapping("/community/insertForm")
