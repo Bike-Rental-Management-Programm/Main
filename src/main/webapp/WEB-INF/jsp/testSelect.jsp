@@ -45,7 +45,7 @@
 <option value='228'>장수군</option>
 <option value='229'>진안군</option>
   </select>
-<script language=javascript>
+<script>
 
  
 

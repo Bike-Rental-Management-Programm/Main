@@ -12,7 +12,7 @@
 
 <h3>자전거 대여소 찾기</h3>
 
-<c:if test="${not empty message}">${message}</c:if>
+
 
 </body>
 </html>
